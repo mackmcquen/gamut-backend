@@ -29,7 +29,7 @@ class AuthController < ApplicationController
 
         user = User.find(id)
         if user
-            render json: { id: user.id, username: user.username, token: token }
+            render json: { id: user.id, username: user.username, email: user.email, token: token }
         else
             render json: { error: 'Invalid token' }
         end

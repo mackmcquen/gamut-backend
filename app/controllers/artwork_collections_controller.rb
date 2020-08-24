@@ -5,6 +5,11 @@ class ArtworkCollectionsController < ApplicationController
         render json: artwork_collections
     end
 
+    def show
+        artwork_collection = ArtworkCollection.find(params[:id])
+        render json: artwork_collection
+    end
+
     def create
         artwork_collection = ArtworkCollection.create(artwork_collection_params)
         render json: artwork_collection
