@@ -82,4 +82,4 @@ production:
   <<: *default
   database: d83kko3tahe8j4
   username: vaucbohtjcsonk
-  password: <%= ENV['HEAVENSENTVTG_BACKEND_DATABASE_PASSWORD'] %>
+  password: <%= ENV['06fe56cb20ed4f6d8cbd67009dbfe43d57a3dad43fcbcd4a2669a75735c69c31'] %>
