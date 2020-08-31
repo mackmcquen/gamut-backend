@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://gamutart.netlify.app/'
+    Access-Control-Allow-Origin: '*'
 
     resource '*',
       headers: :any,
