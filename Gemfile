@@ -47,3 +47,5 @@ gem "active_model_serializers", "~> 0.10.10"
 gem "faker", "~> 2.13"
 
 gem 'devise'
+
+gem "aws-sdk-s3", require: false
